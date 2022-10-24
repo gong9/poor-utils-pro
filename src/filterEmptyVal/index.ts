@@ -6,8 +6,17 @@ interface TargetObjType {
  * FilterEmptyVal [include undefined or null]
  *
  * @param {object} resJson
+ * @example filterEmptyVal(
+  {
+    a: null,
+    b: {
+      c: undefined,
+      d: 1,
+    },
+  }) // {b:{d:1}}
  */
-const filterEmptyVal = (resJson: TargetObjType) => {
+
+const filterEmptyVal = (resJson: TargetObjType): TargetObjType => {
   const obj: any = Array.isArray(resJson) ? [] : {}
   for (const [k, v] of Object.entries(resJson)) {
     // handle undefined or null
