@@ -56,4 +56,14 @@ describe('filterEmptyVal', () => {
       },
     })
   })
+
+  test('have null add undefined,deep 2 also add array', () => {
+    expect(filterEmptyVal({
+      name: undefined,
+      age: null,
+      other: [1, 2, 3, null],
+    })).toEqual({
+      other: [1, 2, 3],
+    })
+  })
 })
