@@ -1,8 +1,8 @@
 {
-  "name": "poor-utils",
+  "name": "poor-utils-pro",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "utils lib",
+  "main": "lib/index.js",
   "scripts": {
     "build": "rollup --config rollup.config.js",
     "typedoc": "typedoc --tsconfig tsconfig.json --options typedoc.json",
