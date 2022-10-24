@@ -2,17 +2,15 @@ const babel = require('rollup-plugin-babel')
 const commonjs = require('rollup-plugin-commonjs')
 const typescript = require('rollup-plugin-typescript')
 const {
-  terser
+  terser,
 } = require('rollup-plugin-terser')
-
-
 
 module.exports = {
   input: './src/index.ts',
   output: {
     file: './lib/index.js',
     format: 'esm',
-    sourcemap: true
+    sourcemap: true,
   },
   plugins: [
     babel(),
@@ -20,7 +18,7 @@ module.exports = {
     terser(),
     typescript({
       exclude: 'node_modules/**',
-      typescript: require('typescript')
-    })
-  ]
+      typescript: require('typescript'),
+    }),
+  ],
 }
