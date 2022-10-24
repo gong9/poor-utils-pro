@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "rollup --config rollup.config.js",
-    "typedoc": "npx typedoc --tsconfig typedoc.json",
+    "typedoc": "typedoc --tsconfig tsconfig.json --options typedoc.json",
     "test": "jest",
     "preinstall": "npx only-allow pnpm",
     "lint": "eslint .",
