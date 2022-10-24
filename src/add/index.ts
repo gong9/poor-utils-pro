@@ -1,8 +1,8 @@
 /**
- * Add
- * Need to handle floating point number and large number problems
- * @param arg1
- * @param arg2
+ * Two Number Add
+ * handle floating point number and large number problems
+ * @param {number} arg1
+ * @param {number} arg2
  */
 const add = (arg1: number, arg2: number) => {
   const num1Digits = (arg1.toString().split('.')[1] || '').length
