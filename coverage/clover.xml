@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1666627197552" clover="3.2.0">
+  <project timestamp="1666627197552" name="All files">
+    <metrics statements="13" coveredstatements="13" conditionals="11" coveredconditionals="10" methods="2" coveredmethods="2" elements="26" coveredelements="25" complexity="0" loc="13" ncloc="13" packages="2" files="2" classes="2"/>
+    <package name="add">
+      <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="index.ts" path="/Users/gongzhen/code/me/poor-utils/src/add/index.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="9" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="filterEmptyVal">
+      <metrics statements="7" coveredstatements="7" conditionals="7" coveredconditionals="6" methods="1" coveredmethods="1"/>
+      <file name="index.ts" path="/Users/gongzhen/code/me/poor-utils/src/filterEmptyVal/index.ts">
+        <metrics statements="7" coveredstatements="7" conditionals="7" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="7" type="cond" truecount="1" falsecount="1"/>
+        <line num="12" count="16" type="stmt"/>
+        <line num="14" count="16" type="cond" truecount="3" falsecount="0"/>
+        <line num="15" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="18" count="7" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
