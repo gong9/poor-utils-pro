@@ -13,3 +13,4 @@ const add = (arg1: number, arg2: number) => {
 }
 
 export default add
+
