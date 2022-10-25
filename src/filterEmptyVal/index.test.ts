@@ -18,7 +18,7 @@ describe('filterEmptyVal', () => {
     })
   })
 
-  test('have null add  undefined', () => {
+  test('have null a n d  undefined', () => {
     expect(filterEmptyVal({
       name: 'xxx',
       age: 19,
@@ -32,14 +32,14 @@ describe('filterEmptyVal', () => {
     })
   })
 
-  test('no null add  undefined', () => {
+  test('no null and  undefined', () => {
     expect(filterEmptyVal({
       name: undefined,
       age: null,
     })).toEqual({})
   })
 
-  test('have null add undefined,deep 3', () => {
+  test('have null and undefined,deep 3', () => {
     expect(filterEmptyVal({
       name: undefined,
       age: null,
@@ -57,7 +57,7 @@ describe('filterEmptyVal', () => {
     })
   })
 
-  test('have null add undefined,deep 2 also add array', () => {
+  test('have null and undefined,deep 2 also and array', () => {
     expect(filterEmptyVal({
       name: undefined,
       age: null,
