@@ -1,4 +1,4 @@
-import type { TargetObjType } from '../types'
+import type { TargetObjType } from '../../types'
 /**
  * FilterEmptyVal [include undefined or null]
  *

@@ -1,4 +1,4 @@
-import type { TargetObjType } from '../types'
+import type { TargetObjType } from '../../types'
 
 /**
  * Get url params
