@@ -21,7 +21,7 @@ filterEmptyVal(
     },
   }) // {b:{d:1}}
 
-getUrlParams('https://www.baidu.com?a===b&c=d') // { a: "==b", c: "d"}
+getUrlParams('https://www.baidu.com?a===b&c=d') // { a: "==b", c: "d" }
 ```
 
 ## 📦 Install
