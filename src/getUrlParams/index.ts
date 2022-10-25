@@ -4,6 +4,8 @@ import type { TargetObjType } from '../../types'
  * Get url params
  * Solved some problems eg: the url param contains '=' and reject hash
  * @param url
+ * @example getUrlParams('https://www.baidu.com?a===b&c=d') // { a: "==b", c: "d"}
+ *
  */
 const getUrlParams = (url: string) => {
   const needHandleString = url.split('?')[1] || ''
