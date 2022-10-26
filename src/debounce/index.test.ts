@@ -30,4 +30,15 @@ describe('debounce', () => {
 
     expect(mockFn).toHaveBeenLastCalledWith(3)
   })
+
+  test('inspect this', () => {
+    const mockFn = jest.fn()
+    const fn = debounce(mockFn, 1000)
+
+    fn.apply({ name: 'zhangsan' })
+
+    jest.runAllTimers()
+
+    expect((mockFn.mock as any).contexts[0]).toEqual({ name: 'zhangsan' })
+  })
 })
