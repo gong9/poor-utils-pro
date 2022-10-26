@@ -2,7 +2,7 @@
  * Array flatten
  * Different from lodash, recursion is not used here
  * todo can be specified layers
- * @param arr
+ * @param array
  * @returns
  * @example flatten([1, 2, [5, [6, [7, [8]]]], 3, 4])  // [1, 2, 5, 6, 7, 8, 3, 4]
  */
