@@ -1,20 +1,33 @@
 import debounce from './index'
 
 describe('debounce', () => {
-  it('debounce', (done) => {
-    const mockFn = jest.fn()
+  beforeAll(() => {
+    jest.useFakeTimers()
+  })
 
-    const fn = debounce(mockFn, 10)
+  test('handle function Called once', () => {
+    const mockFn = jest.fn()
+    const fn = debounce(mockFn, 1000)
+
+    fn()
+    fn()
+    fn()
+
+    jest.runAllTimers()
+
+    expect(mockFn).toBeCalledTimes(1)
+  })
+
+  test('handle function Called once', () => {
+    const mockFn = jest.fn(value => value)
+    const fn = jest.fn(debounce(mockFn, 1000))
 
     fn(1)
     fn(2)
+    fn(3)
 
-    setTimeout(() => {
-      const calls = mockFn.mock.calls
+    jest.runAllTimers()
 
-      expect(calls.length).toBe(1)
-      expect(calls[0][0]).toBe(2)
-      done()
-    }, 50)
+    expect(fn.mock.results[2].value).toBe(3)
   })
 })

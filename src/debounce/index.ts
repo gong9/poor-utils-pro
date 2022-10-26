@@ -1,3 +1,7 @@
+interface ResultType {
+  value: unknown
+}
+
 /**
  * Debounce
  * @param func
@@ -9,13 +13,13 @@ const debounce = (func: Function, wait: number) => {
 
   const isCanUseRaf = !wait && typeof window.requestAnimationFrame === 'function'
 
-  function startTimer(this: any, func: Function, wait: number, result: unknown, ...args: unknown[]) {
+  function startTimer(this: any, func: Function, wait: number, result: ResultType, ...args: unknown[]) {
     if (isCanUseRaf) {
-      return requestAnimationFrame(() => { result = func.apply(this, args) })
+      return requestAnimationFrame(() => { result.value = func.apply(this, args) })
     }
     else {
       return setTimeout(() => {
-        result = func.apply(this, args)
+        result.value = func.apply(this, args)
       }, wait)
     }
   }
@@ -29,11 +33,13 @@ const debounce = (func: Function, wait: number) => {
   }
 
   function debounced(this: any, ...args: unknown[]) {
-    let result: unknown
+    const result: ResultType = {
+      value: undefined,
+    }
     timerId && clearTimer(timerId)
     timerId = startTimer.call(this, func, wait, result, ...args)
 
-    return result
+    return result.value
   }
 
   return debounced
