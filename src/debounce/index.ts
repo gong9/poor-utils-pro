@@ -10,8 +10,9 @@ const debounce = (func: Function, wait: number) => {
   const isCanUseRaf = !wait && typeof window.requestAnimationFrame === 'function'
 
   function startTimer(this: any, func: Function, wait: number, result: unknown, ...args: unknown[]) {
-    if (isCanUseRaf) { return requestAnimationFrame(() => { result = func.apply(this, args) }) }
-
+    if (isCanUseRaf) {
+      return requestAnimationFrame(() => { result = func.apply(this, args) })
+    }
     else {
       return setTimeout(() => {
         result = func.apply(this, args)
