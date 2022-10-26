@@ -1,11 +1,11 @@
-import debounce from './index'
+import { debounce } from 'lodash'
 
 describe('debounce', () => {
   beforeAll(() => {
     jest.useFakeTimers()
   })
 
-  test('handle function Called once', () => {
+  test('handle function called once', () => {
     const mockFn = jest.fn()
     const fn = debounce(mockFn, 1000)
 
@@ -18,9 +18,9 @@ describe('debounce', () => {
     expect(mockFn).toBeCalledTimes(1)
   })
 
-  test('handle function Called once', () => {
-    const mockFn = jest.fn(value => value)
-    const fn = jest.fn(debounce(mockFn, 1000))
+  test('last input parameter', () => {
+    const mockFn = jest.fn()
+    const fn = debounce(mockFn, 1000)
 
     fn(1)
     fn(2)
@@ -28,6 +28,6 @@ describe('debounce', () => {
 
     jest.runAllTimers()
 
-    expect(fn.mock.results[2].value).toBe(3)
+    expect(mockFn).toHaveBeenLastCalledWith(3)
   })
 })
