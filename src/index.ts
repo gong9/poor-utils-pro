@@ -3,6 +3,7 @@ import filterEmptyVal from './filterEmptyVal'
 import getUrlParams from './getUrlParams'
 import flatten from './flatten'
 import debounce from './debounce'
+import curry from './curry'
 
 export {
   add,
@@ -10,4 +11,5 @@ export {
   getUrlParams,
   flatten,
   debounce,
+  curry,
 }
