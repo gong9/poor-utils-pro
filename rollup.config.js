@@ -10,7 +10,7 @@ module.exports = {
   output: {
     file: './lib/index.js',
     format: 'esm',
-    sourcemap: true,
+    sourcemap: false,
   },
   plugins: [
     babel(),
