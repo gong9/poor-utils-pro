@@ -4,6 +4,8 @@ import getUrlParams from './getUrlParams'
 import flatten from './flatten'
 import debounce from './debounce'
 import curry from './curry'
+import soft from './soft'
+import toThousandths from './toThousandths'
 
 export {
   add,
@@ -12,4 +14,6 @@ export {
   flatten,
   debounce,
   curry,
+  soft,
+  toThousandths,
 }
