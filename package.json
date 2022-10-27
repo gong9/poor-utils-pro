@@ -8,7 +8,6 @@
     "typedoc": "typedoc --tsconfig tsconfig.json --options typedoc.json",
     "test": "jest",
     "coveralls": "jest --coverage --coverageReporters=text-lcov",
-    "preinstall": "npx only-allow pnpm",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
