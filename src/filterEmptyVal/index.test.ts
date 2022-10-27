@@ -1,6 +1,6 @@
 import filterEmptyVal from './index'
 describe('filterEmptyVal', () => {
-  test('have null', () => {
+  test('has null', () => {
     expect(filterEmptyVal({
       name: 'xxx',
       age: null,
@@ -9,7 +9,7 @@ describe('filterEmptyVal', () => {
     })
   })
 
-  test('have undefined', () => {
+  test('has undefined', () => {
     expect(filterEmptyVal({
       name: undefined,
       age: 18,
@@ -18,7 +18,7 @@ describe('filterEmptyVal', () => {
     })
   })
 
-  test('have null a n d  undefined', () => {
+  test('has null a n d  undefined', () => {
     expect(filterEmptyVal({
       name: 'xxx',
       age: 19,
@@ -39,7 +39,7 @@ describe('filterEmptyVal', () => {
     })).toEqual({})
   })
 
-  test('have null and undefined,deep 3', () => {
+  test('has null and undefined,deep 3', () => {
     expect(filterEmptyVal({
       name: undefined,
       age: null,
@@ -57,7 +57,7 @@ describe('filterEmptyVal', () => {
     })
   })
 
-  test('have null and undefined,deep 2 also and array', () => {
+  test('has null and undefined,deep 2 also and array', () => {
     expect(filterEmptyVal({
       name: undefined,
       age: null,
