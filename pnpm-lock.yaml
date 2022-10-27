@@ -23,6 +23,7 @@ specifiers:
   rollup-plugin-terser: ^7.0.2
   rollup-plugin-typescript: ^1.0.1
   ts-jest: ^29.0.1
+  tslib: ^2.4.0
   typedoc: ^0.23.18
   typescript: ^4.8.4
 
@@ -30,6 +31,7 @@ dependencies:
   '@types/lodash': 4.14.186
   bignumber.js: 9.1.0
   lodash: 4.17.21
+  tslib: 2.4.0
 
 devDependencies:
   '@antfu/eslint-config': 0.27.0_wyqvi574yv7oiwfeinomdzmc3m
@@ -49,7 +51,7 @@ devDependencies:
   rollup-plugin-babel: 4.4.0_rollup@3.2.3
   rollup-plugin-commonjs: 10.1.0_rollup@3.2.3
   rollup-plugin-terser: 7.0.2_rollup@3.2.3
-  rollup-plugin-typescript: 1.0.1_typescript@4.8.4
+  rollup-plugin-typescript: 1.0.1_hjjpfygmunulepk75ead4kovya
   ts-jest: 29.0.3_7yfpbkrrkkmtlepb2un4d37cti
   typedoc: 0.23.18_typescript@4.8.4
   typescript: 4.8.4
@@ -5789,7 +5791,7 @@ packages:
       terser: 5.15.1
     dev: true
 
-  /rollup-plugin-typescript/1.0.1_typescript@4.8.4:
+  /rollup-plugin-typescript/1.0.1_hjjpfygmunulepk75ead4kovya:
     resolution: {integrity: sha512-rwJDNn9jv/NsKZuyBb/h0jsclP4CJ58qbvZt2Q9zDIGILF2LtdtvCqMOL+Gq9IVq5MTrTlHZNrn8h7VjQgd8tw==}
     deprecated: This package has been deprecated and is no longer maintained. Please use @rollup/plugin-typescript.
     peerDependencies:
@@ -5798,6 +5800,7 @@ packages:
     dependencies:
       resolve: 1.22.1
       rollup-pluginutils: 2.8.2
+      tslib: 2.4.0
       typescript: 4.8.4
     dev: true
 
@@ -6295,7 +6298,6 @@ packages:
 
   /tslib/2.4.0:
     resolution: {integrity: sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==}
-    dev: true
 
   /tsutils/3.21.0_typescript@4.8.4:
     resolution: {integrity: sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==}
