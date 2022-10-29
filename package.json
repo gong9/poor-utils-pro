@@ -2,10 +2,9 @@
   "name": "poor-utils-pro",
   "version": "1.0.4",
   "description": "utils lib",
-  "main": "lib/index.js",
-  "publishConfig": {
-    "main": "lib/index.js"
-  },
+  "main": "lib/index.cjs.js",
+  "module": "lib/index.es.js",
+  "types": "./lib/types/index.d.ts",
   "files": [
     "lib",
     "readme.md"
@@ -15,6 +14,7 @@
     "typedoc": "typedoc --tsconfig tsconfig.json --options typedoc.json",
     "test": "jest",
     "coveralls": "jest --coverage --coverageReporters=text-lcov",
+    "release": "standard-version",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
@@ -44,6 +44,7 @@
     "rollup-plugin-dts": "^5.0.0",
     "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-typescript2": "^0.34.1",
+    "standard-version": "^9.5.0",
     "ts-jest": "^29.0.1",
     "tslib": "^2.4.0",
     "typedoc": "^0.23.18",
