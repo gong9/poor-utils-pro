@@ -1,6 +1,0 @@
-language: node_js
-node_js:
-  - 14 # use nodejs v10 LTS
-cache: npm
-script:
-  - yarn coveralls # generate static files
