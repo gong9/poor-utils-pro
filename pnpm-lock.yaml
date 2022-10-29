@@ -6,9 +6,7 @@ specifiers:
   '@commitlint/cli': 12.1.4
   '@commitlint/config-conventional': 12.1.4
   '@types/jest': ^29.0.3
-  '@types/lodash': ^4.14.186
   '@typescript-eslint/eslint-plugin': ^5.0.0
-  bignumber.js: ^9.1.0
   coveralls: ^3.1.1
   eslint: ^8.26.0
   husky: ^8.0.1
@@ -16,7 +14,6 @@ specifiers:
   jest-environment-jsdom: ^29.2.2
   jest-location-mock: ^1.0.9
   lint-staged: ^13.0.3
-  lodash: ^4.17.21
   rollup: ^3.2.3
   rollup-plugin-babel: ^4.4.0
   rollup-plugin-commonjs: ^10.1.0
@@ -26,12 +23,6 @@ specifiers:
   tslib: ^2.4.0
   typedoc: ^0.23.18
   typescript: ^4.8.4
-
-dependencies:
-  '@types/lodash': 4.14.186
-  bignumber.js: 9.1.0
-  lodash: 4.17.21
-  tslib: 2.4.0
 
 devDependencies:
   '@antfu/eslint-config': 0.27.0_wyqvi574yv7oiwfeinomdzmc3m
@@ -53,6 +44,7 @@ devDependencies:
   rollup-plugin-terser: 7.0.2_rollup@3.2.3
   rollup-plugin-typescript: 1.0.1_hjjpfygmunulepk75ead4kovya
   ts-jest: 29.0.3_7yfpbkrrkkmtlepb2un4d37cti
+  tslib: 2.4.0
   typedoc: 0.23.18_typescript@4.8.4
   typescript: 4.8.4
 
@@ -1958,10 +1950,6 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
 
-  /@types/lodash/4.14.186:
-    resolution: {integrity: sha512-eHcVlLXP0c2FlMPm56ITode2AgLMSa6aJ05JTTbYbI+7EMkCEE5qk2E41d5g2lCVTqRe0GnnRFurmlCsDODrPw==}
-    dev: false
-
   /@types/mdast/3.0.10:
     resolution: {integrity: sha512-W864tg/Osz1+9f4lrGTZpCSO5/z4608eUp19tbozkq2HJK6i3z1kT0H9tlADXuYIb1YYOBByU4Jsqkk75q48qA==}
     dependencies:
@@ -2472,10 +2460,6 @@ packages:
     dependencies:
       tweetnacl: 0.14.5
     dev: true
-
-  /bignumber.js/9.1.0:
-    resolution: {integrity: sha512-4LwHK4nfDOraBCtst+wOWIHbu1vhvAPJK8g8nROd4iuc3PSEjWif/qwbkh8jwCJz6yDBvtU4KPynETgrfh7y3A==}
-    dev: false
 
   /boolbase/1.0.0:
     resolution: {integrity: sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==}
@@ -5005,6 +4989,7 @@ packages:
 
   /lodash/4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+    dev: true
 
   /log-driver/1.2.7:
     resolution: {integrity: sha512-U7KCmLdqsGHBLeWqYlFA0V0Sl6P08EE1ZrmA9cxjUE0WVqT9qnyVDPz1kzpFEP0jdJuFnasWIfSd7fsaNXkpbg==}
@@ -6298,6 +6283,7 @@ packages:
 
   /tslib/2.4.0:
     resolution: {integrity: sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==}
+    dev: true
 
   /tsutils/3.21.0_typescript@4.8.4:
     resolution: {integrity: sha512-mHKK3iUXL+3UF6xL5k0PEhKRUBKPBCv/+RkEOpjRWxxx27KKRBmmA60A9pgOUvMi8GKhRMPEmjBRPzs2W7O1OA==}
