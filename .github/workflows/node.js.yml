@@ -2,7 +2,7 @@
 name: poor-utils
 on:
   push:
-     branches: [ alpha ]
+     branches: [ main ]
 
 jobs:
   publish-npm:
