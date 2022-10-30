@@ -1,5 +1,5 @@
 
-name: poor-utils
+name: poor-utils-beta
 on:
   push:
      branches: [ beta ]
