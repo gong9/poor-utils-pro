@@ -6,6 +6,7 @@ import debounce from './debounce'
 import curry from './curry'
 import soft from './soft'
 import toThousandths from './toThousandths'
+import before from './before'
 
 export {
   add,
@@ -16,4 +17,5 @@ export {
   curry,
   soft,
   toThousandths,
+  before,
 }
