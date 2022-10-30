@@ -7,6 +7,8 @@ import curry from './curry'
 import soft from './soft'
 import toThousandths from './toThousandths'
 import before from './before'
+import after from './after'
+import ary from './ary'
 
 export {
   add,
@@ -18,4 +20,6 @@ export {
   soft,
   toThousandths,
   before,
+  after,
+  ary,
 }
