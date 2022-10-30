@@ -9,6 +9,8 @@ import toThousandths from './toThousandths'
 import before from './before'
 import after from './after'
 import ary from './ary'
+import defer from './defer'
+import delay from './delay'
 
 export {
   add,
@@ -22,4 +24,6 @@ export {
   before,
   after,
   ary,
+  defer,
+  delay,
 }
