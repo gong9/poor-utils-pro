@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0-beta.1](https://github.com/gong9/poor-utils/compare/v1.3.0-beta.0...v1.3.0-beta.1) (2022-10-30)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* main import defer and delay ([c0e44ff](https://github.com/gong9/poor-utils/commit/c0e44ff52007c4a6dac45b6077181ae5e57584d1))
+
 ## [1.3.0-beta.0](https://github.com/gong9/poor-utils/compare/v1.2.0...v1.3.0-beta.0) (2022-10-30)
 
 
