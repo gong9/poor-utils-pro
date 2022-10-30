@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/gong9/poor-utils/compare/v1.1.0-beta.0...v1.1.0) (2022-10-30)
+
+
+### 📦‍ Build System | 打包构建
+
+* adjust ci ([90e3196](https://github.com/gong9/poor-utils/commit/90e3196aa23faea46cc8a288d2762398f802dd04))
+
 ## [1.1.0-beta.0](https://github.com/gong9/poor-utils/compare/v1.0.5...v1.1.0-beta.0) (2022-10-30)
 
 
