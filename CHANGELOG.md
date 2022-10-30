@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0-beta.0](https://github.com/gong9/poor-utils/compare/v1.1.1...v1.2.0-beta.0) (2022-10-30)
+
+
+### 📦‍ Build System | 打包构建
+
+* adjust action beta name ([5db3705](https://github.com/gong9/poor-utils/commit/5db3705d872a4f59a697e8128652ae1b07e77111))
+* adjust beta action name ([4263218](https://github.com/gong9/poor-utils/commit/4263218e7fd046734db374c7c5bd08a35b326b90))
+
+
+### ✨ Features | 新功能
+
+* add after Api ([5103127](https://github.com/gong9/poor-utils/commit/510312701b93a667665be5f37d809e718a169049))
+
 ### [1.1.1](https://github.com/gong9/poor-utils/compare/v1.1.0...v1.1.1) (2022-10-30)
 
 
