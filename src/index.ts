@@ -8,6 +8,7 @@ import soft from './soft'
 import toThousandths from './toThousandths'
 import before from './before'
 import after from './after'
+import ary from './ary'
 
 export {
   add,
@@ -20,4 +21,5 @@ export {
   toThousandths,
   before,
   after,
+  ary,
 }
