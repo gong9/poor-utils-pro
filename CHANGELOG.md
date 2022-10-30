@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0-beta.0](https://github.com/gong9/poor-utils/compare/v1.2.0...v1.3.0-beta.0) (2022-10-30)
+
+
+### ✨ Features | 新功能
+
+* add defer and delay Api ([e04d119](https://github.com/gong9/poor-utils/commit/e04d1195b34dd6d72f139a8efac5db373c7861ac))
+
 ## [1.2.0](https://github.com/gong9/poor-utils/compare/v1.2.0-beta.2...v1.2.0) (2022-10-30)
 
 ## [1.2.0-beta.2](https://github.com/gong9/poor-utils/compare/v1.2.0-beta.1...v1.2.0-beta.2) (2022-10-30)
