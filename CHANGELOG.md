@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/gong9/poor-utils/compare/v1.1.0...v1.1.1) (2022-10-30)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* import before ([e0193ad](https://github.com/gong9/poor-utils/commit/e0193ad8b0a1dc871ba0e9672f6fdc010504dc97))
+
 ## [1.1.0](https://github.com/gong9/poor-utils/compare/v1.1.0-beta.0...v1.1.0) (2022-10-30)
 
 
