@@ -1,9 +1,10 @@
+import type { Config } from '@jest/types'
 /*
  * For a detailed explanation regarding each configuration property and type check, visit:
  * https://jestjs.io/docs/configuration
  */
 
-module.exports = {
+export default {
   preset: 'ts-jest',
   // All imported modules in your tests should be mocked automatically
   // automock: false,
@@ -193,4 +194,4 @@ module.exports = {
 
   // Whether to use watchman for file crawling
   // watchman: true,
-}
+} as Config.InitialOptions
