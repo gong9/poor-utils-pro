@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## 1.3.0-beta.3 (2022-10-31)
+
+
+### ✏️ Documentation | 文档
+
+* add defer example ([add85e4](https://github.com/gong9/poor-utils/commit/add85e49baa3acb4b5e8e13166d654206dfd84de))
+
 ## 1.3.0-beta.2 (2022-10-31)
 
 
