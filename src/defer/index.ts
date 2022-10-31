@@ -1,5 +1,7 @@
 /**
  * defer
+ *
+ * Asynchronous processing,Defer function calls
  * @param func
  * @param args
  * @returns

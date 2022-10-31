@@ -18,6 +18,7 @@ jobs:
           version: 7
       - run: pnpm install --no-frozen-lockfile 
       - run: pnpm build
+      - run: pnpm release --prerelease beta
       - run: npm publish --tag beta
         env:
           NODE_AUTH_TOKEN: ${{secrets.LEGO}}

@@ -11,6 +11,7 @@ import after from './after'
 import ary from './ary'
 import defer from './defer'
 import delay from './delay'
+import flip from './flip'
 
 export {
   add,
@@ -26,4 +27,5 @@ export {
   ary,
   defer,
   delay,
+  flip,
 }

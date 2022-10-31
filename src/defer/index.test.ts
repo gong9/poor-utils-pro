@@ -3,6 +3,9 @@
 import defer from './index'
 
 describe('defer', () => {
+  beforeAll(() => {
+    jest.useFakeTimers()
+  })
   test('normal', () => {
     const mockFn = jest.fn()
 
