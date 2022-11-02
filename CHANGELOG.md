@@ -2,7 +2,41 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### 1.3.1-beta.0 (2022-10-31)
+### [1.3.1](https://github.com/gong9/poor-utils/compare/v1.3.0...v1.3.1) (2022-10-31)
+
+
+### ✨ Features | 新功能
+
+* add flip Api ([cffbd37](https://github.com/gong9/poor-utils/commit/cffbd37dd46d2b5a93814ed9fa276cf19843b267))
+
+
+### 🚀 Chore | 构建/工程依赖/工具
+
+* add some deps to handle jest config file ([adbaeb1](https://github.com/gong9/poor-utils/commit/adbaeb1eafc9c9b40514b5904e462c6e958c82b5))
+
+## [1.3.0-beta.1](https://github.com/gong9/poor-utils/compare/v1.3.0-beta.0...v1.3.0-beta.1) (2022-10-30)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* main import defer and delay ([c0e44ff](https://github.com/gong9/poor-utils/commit/c0e44ff52007c4a6dac45b6077181ae5e57584d1))
+
+
+### 🚀 Chore | 构建/工程依赖/工具
+
+* **release:** 1.3.0-beta.1 ([6260bc6](https://github.com/gong9/poor-utils/commit/6260bc69a4650781800fbb2f81e97dd658f89d23))
+
+## [1.3.0-beta.0](https://github.com/gong9/poor-utils/compare/v1.2.0...v1.3.0-beta.0) (2022-10-30)
+
+
+### ✨ Features | 新功能
+
+* add defer and delay Api ([e04d119](https://github.com/gong9/poor-utils/commit/e04d1195b34dd6d72f139a8efac5db373c7861ac))
+
+
+### 🚀 Chore | 构建/工程依赖/工具
+
+* **release:** 1.3.0-beta.0 ([c99bf41](https://github.com/gong9/poor-utils/commit/c99bf4102c7f51dee1b8fc1333244e23fa205017))
 
 ## [1.3.0](https://github.com/gong9/poor-utils/compare/v1.2.0...v1.3.0) (2022-10-31)
 

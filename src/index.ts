@@ -12,6 +12,7 @@ import ary from './ary'
 import defer from './defer'
 import delay from './delay'
 import flip from './flip'
+import memoize from './memoize'
 
 export {
   add,
@@ -28,4 +29,5 @@ export {
   defer,
   delay,
   flip,
+  memoize,
 }
