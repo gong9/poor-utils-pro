@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.3.2-beta.1 (2022-11-03)
+
+
+### 🚀 Chore | 构建/工程依赖/工具
+
+* publish test package ([d078c68](https://github.com/gong9/poor-utils/commit/d078c684c1346d2b3de22b47f93201a1e7e9fc23))
+
 ### 1.3.2-beta.0 (2022-11-02)
 
 
