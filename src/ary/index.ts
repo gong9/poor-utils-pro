@@ -9,7 +9,7 @@
  * const fn = ary(mockFn, 2)
  * fn(1, 2, 3, 4) // => mockFn(1,2)
  */
-const ary = (func: Function, n?: number) => {
+const ary = (func: Function, n?: number): Function => {
   return function (this: any, ...args: unknown[]) {
     let lastArgsArr = args
 
