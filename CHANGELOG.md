@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.3.2-beta.2 (2022-11-13)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* some git error ([79f7e5a](https://github.com/gong9/poor-utils/commit/79f7e5aab483a8aeacefa91975719e21880039b7))
+
 ### 1.3.2-beta.1 (2022-11-03)
 
 
