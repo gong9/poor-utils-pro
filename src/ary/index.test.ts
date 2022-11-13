@@ -18,6 +18,14 @@ describe('ary', () => {
     expect(mockFn).toHaveBeenLastCalledWith()
   })
 
+  test('n = 5', () => {
+    const mockFn = jest.fn()
+    const fn = ary(mockFn, 5)
+    fn(1, 2, 3, 4)
+
+    expect(mockFn).toHaveBeenLastCalledWith(1, 2, 3, 4)
+  })
+
   test('n = -2', () => {
     const mockFn = jest.fn()
     const fn = ary(mockFn, -2)

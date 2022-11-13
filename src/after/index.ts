@@ -9,7 +9,7 @@
  * fn() // not called
  * fn() // more than (or equal) twice called
  */
-const after = (n = 0, func: Function) => {
+const after = (n: number, func: Function): Function => {
   return function (this: any, ...args: unknown[]) {
     if (--n < 1)
       return func.apply(this, args)
