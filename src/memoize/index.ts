@@ -1,9 +1,6 @@
 /* eslint-disable no-unreachable-loop */
 /* eslint-disable no-case-declarations */
 /* eslint-disable no-fallthrough */
-interface DepType {
-  [propName: string]: unknown
-}
 
 /**
  * memoize
@@ -11,20 +8,11 @@ interface DepType {
  * @returns
  */
 
-const memoize = (callback: Function, deps: DepType) => {
+const memoize = (callback: Function) => {
   let cache: unknown = null
   let isShouldCall = false
   let callTimes = 0
   let lastArgs: unknown[] = []
-
-  const observe = (deps: DepType) => {
-    return new Proxy(deps, {
-      set(target, key, value, receiver) {
-        isShouldCall = true
-        return Reflect.set(target, key, value, receiver)
-      },
-    })
-  }
 
   const isEq = (curArg: unknown, lastArg: unknown): boolean => {
     const curArgType = Object.prototype.toString.call(curArg)
@@ -102,7 +90,7 @@ const memoize = (callback: Function, deps: DepType) => {
     }
   }
 
-  return [memoized, observe(deps)] as [Function, DepType]
+  return memoized
 }
 
 export default memoize

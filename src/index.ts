@@ -12,7 +12,6 @@ import ary from './ary'
 import defer from './defer'
 import delay from './delay'
 import flip from './flip'
-import memoize from './memoize'
 import lazyImg from './lazyImg'
 
 export {
@@ -30,6 +29,5 @@ export {
   defer,
   delay,
   flip,
-  memoize,
   lazyImg,
 }
