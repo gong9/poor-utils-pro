@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/gong9/poor-utils/compare/v1.3.1...v1.4.0) (2022-11-17)
+
+
+### ✨ Features | 新功能
+
+* add memoize Api ([52ff80b](https://github.com/gong9/poor-utils/commit/52ff80b1afb4baeb21336742ad8a77be26c1c0be))
+* handle memoize details ([65e6f26](https://github.com/gong9/poor-utils/commit/65e6f267fce70175d14de4a150cdeed7169133e8))
+* lazyImg Api ([13a7001](https://github.com/gong9/poor-utils/commit/13a7001548fe1ab4312ab576d71d8842fcbd489e))
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* temporarily remove memo ([92a5b2b](https://github.com/gong9/poor-utils/commit/92a5b2be7c2660861c9fa4cb086de75f7725c019))
+* temporarily remove memo ([a6ee616](https://github.com/gong9/poor-utils/commit/a6ee616d34a64c638cf3d4a87e9f344223ccdac5))
+
 ### [1.3.1](https://github.com/gong9/poor-utils/compare/v1.3.0...v1.3.1) (2022-10-31)
 
 
