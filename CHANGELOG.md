@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.3.2-beta.3 (2022-11-20)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* delete memo api ([2369619](https://github.com/gong9/poor-utils/commit/2369619ebbdb8d935e0997930e8f517199fde9bd))
+
 ### 1.3.2-beta.2 (2022-11-13)
 
 
