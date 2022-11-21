@@ -13,7 +13,7 @@ import defer from './defer'
 import delay from './delay'
 import flip from './flip'
 import lazyImg from './lazyImg'
-import as from './arrayShuffle'
+import arrayShuffle from './arrayShuffle'
 
 export {
   add,
@@ -31,5 +31,5 @@ export {
   delay,
   flip,
   lazyImg,
-  as,
+  arrayShuffle,
 }
