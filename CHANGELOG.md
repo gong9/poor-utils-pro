@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.5.0](https://github.com/gong9/poor-utils/compare/v1.4.0...v1.5.0) (2022-11-21)
+
+
+### 🐛 Bug Fixes | Bug 修复
+
+* delete memo api ([cb035e0](https://github.com/gong9/poor-utils/commit/cb035e00501fead325d5f42195396f4ac7ec2a7c))
+
+
+### ✨ Features | 新功能
+
+* add as ([0313b66](https://github.com/gong9/poor-utils/commit/0313b6650523d175b6afb8860128228e3704b257))
+* publish abort array shuffle Api ([d761ca4](https://github.com/gong9/poor-utils/commit/d761ca4905f6497bdc801c589932c0f2bda2cdfa))
+
 ## [1.4.0](https://github.com/gong9/poor-utils/compare/v1.3.1...v1.4.0) (2022-11-17)
 
 
