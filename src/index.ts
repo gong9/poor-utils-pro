@@ -14,6 +14,7 @@ import delay from './delay'
 import flip from './flip'
 import lazyImg from './lazyImg'
 import arrayShuffle from './arrayShuffle'
+import arrayQuickFill from './arrayQuickFill'
 
 export {
   add,
@@ -32,4 +33,5 @@ export {
   flip,
   lazyImg,
   arrayShuffle,
+  arrayQuickFill,
 }
