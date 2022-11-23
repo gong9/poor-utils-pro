@@ -1,6 +1,11 @@
 /**
  * arrayQuickFill
+ *
  * Quickly fill n duplicates to a position in the array
+ *
+ * Returns a new array
+ * When num is less than 0, the returned new array value is consistent with the original array value
+ * When there is no index, the default is to prevent the last
  * @param targetArr
  * @param data
  * @param num
@@ -8,10 +13,6 @@
  * @example
  * arrayQuickFill([1, 2, 3, 4], 10, 10, 1) =>
  * [1, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 2, 3, 4]
- *
- * Returns a new array
- * When num is less than 0, the returned new array value is consistent with the original array value
- * When there is no index, the default is to prevent the last
  */
 const arrayQuickFill = <T>(targetArr: T[], data: T, num: number, index?: number): T[] => {
   let resArr: T[] = [...targetArr]
