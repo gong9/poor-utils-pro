@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/gong9/poor-utils/compare/v1.5.0...v1.6.0) (2022-11-29)
+
+
+### ✏️ Documentation | 文档
+
+* arrayQuickFill adjust docs ([024b986](https://github.com/gong9/poor-utils/commit/024b9866f2f1f866d8c6d6481aad9df98e17ce04))
+* supplement desc ([e99c375](https://github.com/gong9/poor-utils/commit/e99c3754e4a3bbb3ed302007df526f27a5c92a41))
+
+
+### ✨ Features | 新功能
+
+* add throttle Api ([b322bc6](https://github.com/gong9/poor-utils/commit/b322bc6660962b16555410019c1db51deb8d7acc))
+* main import arrayQuickFill Api ([3f79162](https://github.com/gong9/poor-utils/commit/3f79162cd8b6f0cf3892414647d4d4aa62cfce87))
+
 ## [1.5.0](https://github.com/gong9/poor-utils/compare/v1.4.0...v1.5.0) (2022-11-21)
 
 
