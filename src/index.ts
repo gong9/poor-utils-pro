@@ -15,6 +15,7 @@ import flip from './flip'
 import lazyImg from './lazyImg'
 import arrayShuffle from './arrayShuffle'
 import arrayQuickFill from './arrayQuickFill'
+import throttle from './throttle'
 
 export {
   add,
@@ -34,4 +35,5 @@ export {
   lazyImg,
   arrayShuffle,
   arrayQuickFill,
+  throttle,
 }
