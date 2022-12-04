@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.7.0](https://github.com/gong9/poor-utils/compare/v1.6.1...v1.7.0) (2022-12-04)
+
+
+### 🚀 Chore | 构建/工程依赖/工具
+
+* remove terser ([dd4e117](https://github.com/gong9/poor-utils/commit/dd4e1177a60007619325bfa8e1e680c93274c93b))
+
 ### [1.6.1](https://github.com/gong9/poor-utils/compare/v1.6.0...v1.6.1) (2022-11-29)
 
 
