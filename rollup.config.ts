@@ -3,9 +3,6 @@ import babel from 'rollup-plugin-babel'
 import commonjs from 'rollup-plugin-commonjs'
 import typescript from 'rollup-plugin-typescript2'
 import dts from 'rollup-plugin-dts'
-import {
-  terser,
-} from 'rollup-plugin-terser'
 
 export default [
   {
@@ -23,7 +20,6 @@ export default [
     plugins: [
       babel(),
       commonjs(),
-      terser(),
       typescript(),
     ],
   },
