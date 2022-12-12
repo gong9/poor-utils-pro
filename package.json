@@ -11,6 +11,9 @@
   ],
   "scripts": {
     "build": "rollup --config rollup.config.ts --configPlugin typescript",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
     "typedoc": "typedoc --tsconfig tsconfig.json --options typedoc.json",
     "test": "jest --maxWorkers 2",
     "coveralls": "jest --coverage --coverageReporters=text-lcov",
@@ -49,8 +52,9 @@
     "ts-jest": "^29.0.1",
     "ts-node": "^10.9.1",
     "tslib": "^2.4.0",
-    "typedoc": "^0.23.18",
-    "typescript": "^4.8.4"
+    "typescript": "^4.8.4",
+    "vitepress": "1.0.0-alpha.31",
+    "vue": "^3.2.45"
   },
   "lint-staged": {
     "src/**/*.ts": [
