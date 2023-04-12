@@ -16,6 +16,7 @@ import lazyImg from './lazyImg'
 import arrayShuffle from './arrayShuffle'
 import arrayQuickFill from './arrayQuickFill'
 import throttle from './throttle'
+import { duplicateRemovalByAttributes, isDuplicateByAttributes } from './duplicateRemovalByAttributes'
 
 export {
   add,
@@ -36,4 +37,6 @@ export {
   arrayShuffle,
   arrayQuickFill,
   throttle,
+  duplicateRemovalByAttributes,
+  isDuplicateByAttributes,
 }
