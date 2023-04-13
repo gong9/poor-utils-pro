@@ -1,5 +1,10 @@
 lockfileVersion: '6.0'
 
+dependencies:
+  emoji-regex:
+    specifier: ^10.2.1
+    version: 10.2.1
+
 devDependencies:
   '@antfu/eslint-config':
     specifier: ^0.27.0
@@ -3278,6 +3283,10 @@ packages:
     resolution: {integrity: sha512-aITqOwnLanpHLNXZJENbOgjUBeHocD+xsSJmNrjovKBW5HbSpW3d1pEls7GFQPUWXiwG9+0P4GtHfEqC/4M0Iw==}
     engines: {node: '>=12'}
     dev: true
+
+  /emoji-regex@10.2.1:
+    resolution: {integrity: sha512-97g6QgOk8zlDRdgq1WxwgTMgEWGVAQvB5Fdpgc1MkNy56la5SKP9GsMXKDOdqwn90/41a8yPwIGk1Y6WVbeMQA==}
+    dev: false
 
   /emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}

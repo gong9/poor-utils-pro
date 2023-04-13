@@ -57,5 +57,8 @@
       "eslint  --fix",
       "git add"
     ]
+  },
+  "dependencies": {
+    "emoji-regex": "^10.2.1"
   }
 }
