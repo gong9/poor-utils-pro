@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/gong9/poor-utils/compare/v1.7.0...v2.0.0) (2023-04-13)
+
+
+### ✨ Features | 新功能
+
+* add duplicateRemovalByAttributes and isDuplicateByAttributes ([4e38dbb](https://github.com/gong9/poor-utils/commit/4e38dbb756408ba6463e8cc66756ba026d71e0ff))
+
+
+### 🚀 Chore | 构建/工程依赖/工具
+
+* publish 1.8.0 ([9cc9b93](https://github.com/gong9/poor-utils/commit/9cc9b93cd7b9459b289f87ab47b087b52f3a0fdb))
+* remove some useless api ([d9cc2d6](https://github.com/gong9/poor-utils/commit/d9cc2d61a89755a63519ff59c0a00222ca723402))
+
 ## [1.7.0](https://github.com/gong9/poor-utils/compare/v1.6.1...v1.7.0) (2022-12-04)
 
 
