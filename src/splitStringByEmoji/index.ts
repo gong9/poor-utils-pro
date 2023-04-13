@@ -1,5 +1,11 @@
 import emojiRegex from 'emoji-regex'
 
+/**
+ * 分割字符串中的emoji
+ * @example splitStringByEmoji('😊hello world😊') // ['hello world',['😊','😊']]
+ * @param string 
+ * @returns 
+ */
 const splitStringByEmoji = (string: string) => {
   const emojis = []
   const nonEmojis = []
