@@ -2,7 +2,6 @@
  * 用于检测对象数组中是否存在重复项
  * @example isDuplicateByAttributes([{a:1},{a:1}], 'a') // true
  * @example isDuplicateByAttributes([{a:1},{a:2}], 'a') // false
- * @example duplicateRemovalByAttributes([{a:1},{a:1}], 'a') // [{a:1}]
  * @param data
  * @param IdentityAttr
  * @returns
@@ -26,6 +25,7 @@ export const isDuplicateByAttributes = (
 
 /**
  * 对象数组去重
+ * @example duplicateRemovalByAttributes([{a:1},{a:1}], 'a') // [{a:1}]
  * @param data
  * @param IdentityAttr
  * @returns
