@@ -7,7 +7,7 @@
  * @returns
  */
 export const isDuplicateByAttributes = (
-  data: { [k: string]: any }[],
+  data: { [k: string]: unknown }[],
   IdentityAttr: string,
 ) => {
   const map = new Map()
@@ -31,7 +31,7 @@ export const isDuplicateByAttributes = (
  * @returns
  */
 export const duplicateRemovalByAttributes = (
-  data: { [k: string]: any }[],
+  data: { [k: string]: unknown }[],
   IdentityAttr: string,
 ) => {
   const map = new Map()

@@ -16,7 +16,10 @@
     "coveralls": "jest --coverage --coverageReporters=text-lcov",
     "release": "standard-version",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "keywords": [],
   "author": "gong",
