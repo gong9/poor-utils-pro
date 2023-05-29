@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'poor-utils-pro',
   description: 'utils',
+  base: process.env.NODE_ENV === 'production' ? '/resize-observer-vue/' : '/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -15,7 +16,7 @@ export default defineConfig({
       {
         text: 'API',
         items: [
-          { text: 'ArrayQuickFill', link: '/markdown-examples' },
+          { text: 'ArrayQuickFill', link: '/arrayQuickFill' },
           { text: 'ArrayShuffle', link: '/api-examples' },
           { text: 'DuplicateRemovalByAttributes', link: '/duplicateRemovalByAttributes' },
           { text: 'FilterEmptyVal', link: '/api-examples' },
