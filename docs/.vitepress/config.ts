@@ -4,7 +4,6 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'poor-utils-pro',
   description: 'utils',
-  base: process.env.NODE_ENV === 'production' ? '/resize-observer-vue/' : '/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
