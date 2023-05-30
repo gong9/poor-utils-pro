@@ -1,6 +1,6 @@
 # filterEmptyVal
 
-> 过滤掉对象或数组中的
+> 过滤掉对象或数组中的null、undefined
 
 ### 参数类型
 
