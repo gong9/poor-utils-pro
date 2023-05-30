@@ -18,7 +18,7 @@ export default defineConfig({
           { text: 'ArrayQuickFill', link: '/arrayQuickFill' },
           { text: 'ArrayShuffle', link: '/arrayShuffle' },
           { text: 'DuplicateRemovalByAttributes', link: '/duplicateRemovalByAttributes' },
-          { text: 'FilterEmptyVal', link: '/404' },
+          { text: 'FilterEmptyVal', link: '/filterEmptyVal' },
           { text: 'Flatten', link: '/404' },
           { text: 'GetUrlParams', link: '/404' },
           { text: 'Soft', link: '/404' },
