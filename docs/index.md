@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: alt
       text: APIS
-      link: /api-examples
+      link: /duplicateRemovalByAttributes
 
 features:
   - title: 支持TS
