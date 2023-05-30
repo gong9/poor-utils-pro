@@ -16,20 +16,20 @@ export default defineConfig({
         text: 'API',
         items: [
           { text: 'ArrayQuickFill', link: '/arrayQuickFill' },
-          { text: 'ArrayShuffle', link: '/api-examples' },
+          { text: 'ArrayShuffle', link: '/arrayShuffle' },
           { text: 'DuplicateRemovalByAttributes', link: '/duplicateRemovalByAttributes' },
-          { text: 'FilterEmptyVal', link: '/api-examples' },
-          { text: 'Flatten', link: '/markdown-examples' },
-          { text: 'GetUrlParams', link: '/api-examples' },
-          { text: 'Soft', link: '/markdown-examples' },
-          { text: 'SplitStringByEmoji', link: '/api-examples' },
-          { text: 'ToThousandths', link: '/api-examples' },
+          { text: 'FilterEmptyVal', link: '/404' },
+          { text: 'Flatten', link: '/404' },
+          { text: 'GetUrlParams', link: '/404' },
+          { text: 'Soft', link: '/404' },
+          { text: 'SplitStringByEmoji', link: '/404' },
+          { text: 'ToThousandths', link: '/404' },
         ],
       },
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' },
+      { icon: 'github', link: 'https://github.com/gong9/poor-utils' },
     ],
   },
 })
