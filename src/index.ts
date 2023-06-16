@@ -8,6 +8,7 @@ import arrayShuffle from './arrayShuffle'
 import arrayQuickFill from './arrayQuickFill'
 import { duplicateRemovalByAttributes, isDuplicateByAttributes } from './duplicateRemovalByAttributes'
 import splitStringByEmoji from './splitStringByEmoji'
+import getAncestorsNodes from './getAncestorsNodes'
 
 export {
   filterEmptyVal,
@@ -20,5 +21,6 @@ export {
   arrayQuickFill,
   duplicateRemovalByAttributes,
   isDuplicateByAttributes,
-  splitStringByEmoji
+  splitStringByEmoji,
+  getAncestorsNodes,
 }
