@@ -2,6 +2,39 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/gong9/poor-utils/compare/v1.6.1...v2.1.0) (2023-06-16)
+
+
+### 🚀 Chore | 构建/工程依赖/工具
+
+* add dist in .gitignore ([5a4cd00](https://github.com/gong9/poor-utils/commit/5a4cd00a98a7442859a93b56135e151dccc0082c))
+* add vitepress ([aa30931](https://github.com/gong9/poor-utils/commit/aa30931f03d5a18ba943cd4161f98561bce464cd))
+* publish 1.8.0 ([9cc9b93](https://github.com/gong9/poor-utils/commit/9cc9b93cd7b9459b289f87ab47b087b52f3a0fdb))
+* **release:** 1.7.0 ([12a8d6e](https://github.com/gong9/poor-utils/commit/12a8d6ed3eceecde199c5c8fdc565a2548fa82ba))
+* **release:** 2.0.0 ([d219b78](https://github.com/gong9/poor-utils/commit/d219b78395c1b5c2cc2f8a412f3848e808130870))
+* remove some useless api ([d9cc2d6](https://github.com/gong9/poor-utils/commit/d9cc2d61a89755a63519ff59c0a00222ca723402))
+* remove terser ([dd4e117](https://github.com/gong9/poor-utils/commit/dd4e1177a60007619325bfa8e1e680c93274c93b))
+
+
+### ✏️ Documentation | 文档
+
+* add arrayShuffle ([6787c75](https://github.com/gong9/poor-utils/commit/6787c7547c66ff2a24980a49a8bb7cb29b3aec19))
+* add arrayShuffle ([eaecf43](https://github.com/gong9/poor-utils/commit/eaecf43d2c0f68ed09b0c150efca8b3625bf438d))
+* add filterEmptyVal doc ([d9e1bd8](https://github.com/gong9/poor-utils/commit/d9e1bd8965ed8e15d0a7bbd92ee51a11085f8075))
+* add new doc ([53f2318](https://github.com/gong9/poor-utils/commit/53f2318812aa2340c3f0d7e81460f36b7e35b08a))
+* chore use vitepress ([8755671](https://github.com/gong9/poor-utils/commit/875567116e5dffaaea65e33c1c4c466c87ef7d2c))
+* fix filterEmptyVal doc ([87fecd6](https://github.com/gong9/poor-utils/commit/87fecd6935f1487835bf1b4b41613a1e35bfe4aa))
+* fix publish path ([d21c3a7](https://github.com/gong9/poor-utils/commit/d21c3a758df724d3cc6b963b9501766146e17ed0))
+* update docs ([f4a4312](https://github.com/gong9/poor-utils/commit/f4a4312a80773a795b7c80f55497e875f79efef6))
+* update docs ([fbf258a](https://github.com/gong9/poor-utils/commit/fbf258a1cc5242b23a1b15833a56ac47cef9b2ae))
+* update docs ([9851063](https://github.com/gong9/poor-utils/commit/985106308bc1ead1428623ca42975bb87b583931))
+
+
+### ✨ Features | 新功能
+
+* add duplicateRemovalByAttributes and isDuplicateByAttributes ([4e38dbb](https://github.com/gong9/poor-utils/commit/4e38dbb756408ba6463e8cc66756ba026d71e0ff))
+* add getAncestorsNodes ([1c3bce3](https://github.com/gong9/poor-utils/commit/1c3bce34e36694406645fe1868a7079188471ecf))
+
 ## [2.0.0](https://github.com/gong9/poor-utils/compare/v1.7.0...v2.0.0) (2023-04-13)
 
 
