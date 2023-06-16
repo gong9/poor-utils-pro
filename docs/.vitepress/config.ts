@@ -19,7 +19,7 @@ export default defineConfig({
           { text: 'ArrayShuffle', link: '/arrayShuffle' },
           { text: 'DuplicateRemovalByAttributes', link: '/duplicateRemovalByAttributes' },
           { text: 'FilterEmptyVal', link: '/filterEmptyVal' },
-          { text: 'getAncestorsNodes', link: '/getAncestorsNodes' },
+          { text: 'GetAncestorsNodes', link: '/getAncestorsNodes' },
           { text: 'Flatten', link: '/404' },
           { text: 'GetUrlParams', link: '/404' },
           { text: 'Soft', link: '/404' },

@@ -1,4 +1,4 @@
-# getAncestorsNodes
+# GetAncestorsNodes
 
 > 获取祖先路径节点
 
@@ -11,9 +11,9 @@ interface Node {
 <T extends Node>(array: T[], targetId: string | number, key = 'id')
 
 ```
--> array 数据源
--> targetId 目标节点id
--> key 节点id的key值，默认为'id'
+- array 数据源
+- targetId 目标节点id
+- key 节点id的key值，默认为'id'
 
 ### 返回值类型
 
