@@ -1,6 +1,6 @@
 {
   "name": "poor-utils-pro",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "utils lib",
   "main": "lib/index.cjs.js",
   "module": "lib/index.es.js",
@@ -63,6 +63,7 @@
     ]
   },
   "dependencies": {
-    "emoji-regex": "^10.2.1"
+    "emoji-regex": "^10.2.1",
+    "immer": "^10.0.2"
   }
 }

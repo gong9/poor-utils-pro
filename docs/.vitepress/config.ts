@@ -17,6 +17,7 @@ export default defineConfig({
         items: [
           { text: 'ArrayQuickFill', link: '/arrayQuickFill' },
           { text: 'ArrayShuffle', link: '/arrayShuffle' },
+          { text: 'DeleteEmptyTreeNode', link: '/deleteEmptyTreeNode' },
           { text: 'DuplicateRemovalByAttributes', link: '/duplicateRemovalByAttributes' },
           { text: 'FilterEmptyVal', link: '/filterEmptyVal' },
           { text: 'GetAncestorsNodes', link: '/getAncestorsNodes' },
