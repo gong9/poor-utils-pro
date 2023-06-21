@@ -3,8 +3,8 @@ import emojiRegex from 'emoji-regex'
 /**
  * 分割字符串中的emoji
  * @example splitStringByEmoji('😊hello world😊') // ['hello world',['😊','😊']]
- * @param string 
- * @returns 
+ * @param string
+ * @returns
  */
 const splitStringByEmoji = (string: string) => {
   const emojis = []
@@ -14,6 +14,7 @@ const splitStringByEmoji = (string: string) => {
   let match
   let lastIndex = 0
 
+  // eslint-disable-next-line no-cond-assign
   while ((match = regex.exec(string))) {
     const emoji = match[0]
     const nonEmoji = string.slice(lastIndex, match.index)
