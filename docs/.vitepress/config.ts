@@ -20,7 +20,7 @@ export default defineConfig({
           { text: 'DuplicateRemovalByAttributes', link: '/duplicateRemovalByAttributes' },
           { text: 'FilterEmptyVal', link: '/filterEmptyVal' },
           { text: 'GetAncestorsNodes', link: '/getAncestorsNodes' },
-          { text: 'Flatten', link: '/404' },
+          { text: 'Flatten', link: '/flatten' },
           { text: 'GetUrlParams', link: '/404' },
           { text: 'Soft', link: '/404' },
           { text: 'SplitStringByEmoji', link: '/404' },
