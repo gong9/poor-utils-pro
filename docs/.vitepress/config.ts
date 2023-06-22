@@ -8,7 +8,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Utils', link: '/duplicateRemovalByAttributes' },
+      { text: 'Utils', link: '/arrayQuickFill' },
     ],
 
     sidebar: [
