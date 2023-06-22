@@ -30,16 +30,20 @@ export const isDuplicateByAttributes = (
  * @param IdentityAttr
  * @returns
  */
-export const duplicateRemovalByAttributes = (
-  data: { [k: string]: unknown }[],
+export const duplicateRemovalByAttributes = <T>(
+  data: T[],
   IdentityAttr: string,
+  callback?: (preNode: T, currentNode: T) => T,
 ) => {
   const map = new Map()
 
-  data.forEach((item) => {
+  data.forEach((item: any) => {
     if (!map.has(item[IdentityAttr]))
       map.set(item[IdentityAttr], item)
+
+    else
+      callback && map.set(item[IdentityAttr], callback(map.get(item[IdentityAttr]), item))
   })
 
-  return Array.from(map.values())
+  return Array.from(map.values()) as T[]
 }

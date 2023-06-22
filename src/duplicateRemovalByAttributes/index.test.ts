@@ -116,4 +116,30 @@ describe('duplicateRemovalByAttributes', () => {
       ])
     })
   })
+
+  interface Node {
+    id: number
+    name: string
+    version: number
+  }
+
+  describe('test callback', () => {
+    it('simple repeat ', () => {
+      const data = [
+        { id: 1, name: 'a', version: 1 },
+        { id: 2, name: 'b', version: 1 },
+        { id: 3, name: 'c', version: 1 },
+        { id: 1, name: 'd', version: 2 },
+      ]
+      expect(duplicateRemovalByAttributes(data, 'id', (preNode: Node, nextNode: Node) => {
+        return preNode.version > nextNode.version ? preNode : nextNode
+      })).toEqual(
+        [
+          { id: 1, name: 'd', version: 2 },
+          { id: 2, name: 'b', version: 1 },
+          { id: 3, name: 'c', version: 1 },
+        ],
+      )
+    })
+  })
 })
