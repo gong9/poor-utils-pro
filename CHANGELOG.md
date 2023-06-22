@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.2.1](https://github.com/gong9/poor-utils/compare/v2.1.0...v2.2.1) (2023-06-22)
+
+
+### ✏️ Documentation | 文档
+
+* add flatten doc ([2f8a7b0](https://github.com/gong9/poor-utils/commit/2f8a7b04ae8f7f1c516f95537326ec367b4ddcc6))
+* add getAncestorsNodes docs ([e561071](https://github.com/gong9/poor-utils/commit/e5610717cca89063f1f956a8aa93c893216a9275))
+* adjust main page jump path ([f8eb5fe](https://github.com/gong9/poor-utils/commit/f8eb5fe3587af7332d7fb74e052aad5b4dd049d7))
+* ajdust getAncestorsNodes docs ([7a6aa66](https://github.com/gong9/poor-utils/commit/7a6aa66c2d719d0a1f3a9343f588b2197f5df07b))
+* update deleteEmptyTreeNode doc ([5a690ac](https://github.com/gong9/poor-utils/commit/5a690ac540ba21829ac7c2a6867f708c5f5f7309))
+* update docs ([629e326](https://github.com/gong9/poor-utils/commit/629e326f27f4d8c3ec3750ffc5c33bf26fbb243a))
+
+
+### ✨ Features | 新功能
+
+* add deleteEmptyTreeNode ([1d8ae94](https://github.com/gong9/poor-utils/commit/1d8ae94f588f8de68136578230c20336dadce33a))
+* duplicateRemovalByAttributes add callback prop ([e2bbe44](https://github.com/gong9/poor-utils/commit/e2bbe449f38cd843abfa24afe1ae2e3e4bff59f4))
+
 ## [2.1.0](https://github.com/gong9/poor-utils/compare/v1.6.1...v2.1.0) (2023-06-16)
 
 
