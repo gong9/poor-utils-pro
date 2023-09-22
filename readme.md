@@ -12,3 +12,5 @@ pnpm add poor-utils-pro
 
 [文档](https://poor-utils-8gcl.vercel.app/)
 
+http://182.92.210.127:8002/
+
