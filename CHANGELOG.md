@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.3.0](https://github.com/gong9/poor-utils/compare/v2.2.1...v2.3.0) (2023-09-26)
+
+
+### 🚀 Chore | 构建/工程依赖/工具
+
+* add lint-publish ([381d9c3](https://github.com/gong9/poor-utils/commit/381d9c3418f05b10fadcbbda535fdd03f1b14b61))
+
 ### [2.2.1](https://github.com/gong9/poor-utils/compare/v2.1.0...v2.2.1) (2023-06-22)
 
 
