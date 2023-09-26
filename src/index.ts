@@ -9,6 +9,7 @@ import arrayQuickFill from './arrayQuickFill'
 import { duplicateRemovalByAttributes, isDuplicateByAttributes } from './duplicateRemovalByAttributes'
 import splitStringByEmoji from './splitStringByEmoji'
 import getAncestorsNodes from './getAncestorsNodes'
+import compareVersions from './compareVersions'
 
 export {
   filterEmptyVal,
@@ -23,4 +24,5 @@ export {
   isDuplicateByAttributes,
   splitStringByEmoji,
   getAncestorsNodes,
+  compareVersions,
 }

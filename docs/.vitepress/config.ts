@@ -23,6 +23,7 @@ export default defineConfig({
           { text: 'GetAncestorsNodes', link: '/getAncestorsNodes' },
           { text: 'Flatten', link: '/flatten' },
           { text: 'GetUrlParams', link: '/getUrlParams' },
+          { text: 'CompareVersions', link: '/compareVersions' },
           { text: 'Soft', link: '/404' },
           { text: 'SplitStringByEmoji', link: '/splitStringByEmoji' },
           { text: 'ToThousandths', link: '/404' },
