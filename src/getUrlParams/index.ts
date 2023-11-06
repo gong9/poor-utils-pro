@@ -28,4 +28,3 @@ const getUrlParams = (url: string) => {
 }
 
 export default getUrlParams
-

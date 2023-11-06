@@ -21,6 +21,7 @@ export default defineConfig({
           { text: 'DuplicateRemovalByAttributes', link: '/duplicateRemovalByAttributes' },
           { text: 'FilterEmptyVal', link: '/filterEmptyVal' },
           { text: 'GetAncestorsNodes', link: '/getAncestorsNodes' },
+          { text: 'getValueByKey', link: '/getValueByKey' },
           { text: 'Flatten', link: '/flatten' },
           { text: 'GetUrlParams', link: '/getUrlParams' },
           { text: 'CompareVersions', link: '/compareVersions' },

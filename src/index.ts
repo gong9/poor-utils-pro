@@ -10,6 +10,7 @@ import { duplicateRemovalByAttributes, isDuplicateByAttributes } from './duplica
 import splitStringByEmoji from './splitStringByEmoji'
 import getAncestorsNodes from './getAncestorsNodes'
 import compareVersions from './compareVersions'
+import getValueByKey from './getValueByKey'
 
 export {
   filterEmptyVal,
@@ -25,4 +26,5 @@ export {
   splitStringByEmoji,
   getAncestorsNodes,
   compareVersions,
+  getValueByKey,
 }
