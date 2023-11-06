@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.4.0](https://github.com/gong9/poor-utils/compare/v2.3.0...v2.4.0) (2023-11-06)
+
+
+### ✨ Features | 新功能
+
+* add compareVersions api ([16d1b50](https://github.com/gong9/poor-utils/commit/16d1b50cfc1495427e437fc873876b9595f714d0))
+
+
+### 🚀 Chore | 构建/工程依赖/工具
+
+* publish to aliyun ([271d150](https://github.com/gong9/poor-utils/commit/271d15037133818e6003b77a33c5b6a15f9c87ee))
+
 ## [2.3.0](https://github.com/gong9/poor-utils/compare/v2.2.1...v2.3.0) (2023-09-26)
 
 
