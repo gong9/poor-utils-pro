@@ -18,4 +18,3 @@ const flatten = (arr: unknown[]) => {
 }
 
 export default flatten
-

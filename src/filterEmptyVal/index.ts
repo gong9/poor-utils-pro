@@ -1,4 +1,5 @@
 import type { TargetObjType } from '../../types'
+
 /**
  * FilterEmptyVal [include undefined or null]
  *
@@ -25,4 +26,3 @@ const filterEmptyVal = <T extends TargetObjType>(resJson: T): T => {
 }
 
 export default filterEmptyVal
-

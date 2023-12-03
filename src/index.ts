@@ -11,6 +11,7 @@ import splitStringByEmoji from './splitStringByEmoji'
 import getAncestorsNodes from './getAncestorsNodes'
 import compareVersions from './compareVersions'
 import getValueByKey from './getValueByKey'
+import remove from './remove'
 
 export {
   filterEmptyVal,
@@ -27,4 +28,5 @@ export {
   getAncestorsNodes,
   compareVersions,
   getValueByKey,
+  remove,
 }

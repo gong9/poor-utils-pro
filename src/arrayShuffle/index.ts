@@ -20,4 +20,3 @@ const arrayShuffle = <T>(arr: T[]) => {
 }
 
 export default arrayShuffle
-

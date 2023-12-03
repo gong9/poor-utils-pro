@@ -30,6 +30,12 @@ export default defineConfig({
           { text: 'ToThousandths', link: '/404' },
         ],
       },
+      {
+        text: 'node API',
+        items: [
+          { text: 'remove', link: '/remove' },
+        ],
+      },
     ],
 
     socialLinks: [
